@@ -1,5 +1,6 @@
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
+import infinity from "./infinity-logo.png";
 
 export function Welcome() {
   return (
@@ -8,12 +9,12 @@ export function Welcome() {
         <header className="flex flex-col items-center gap-9">
           <div className="w-[500px] max-w-[100vw] p-4">
             <img
-              src={logoLight}
+              src={infinity}
               alt="React Router"
               className="block w-full dark:hidden"
             />
             <img
-              src={logoDark}
+              src={infinity}
               alt="React Router"
               className="hidden w-full dark:block"
             />
