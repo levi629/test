@@ -1,6 +1,6 @@
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
-import infinity from "./infinity-logo.png";
+
 
 export function Welcome() {
   return (

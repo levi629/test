@@ -1,9 +1,10 @@
 import type { Route } from "./+types/home";
 import AskGemini from "~/page/chatPage";
 
+
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
+    { title: "BumaaGPT" },
     { name: "description", content: "Welcome to React Router!" },
   ];
 }
