@@ -31,7 +31,7 @@ export default function AskGemini() {
 
   return (
     <div>
-      <h2>Gemini Chat</h2>
+      <h2>BumaaGPT</h2>
       <textarea
         rows={4}
         style={{ width: "100%" }}
